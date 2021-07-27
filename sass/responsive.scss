@@ -17,7 +17,7 @@
             flex-direction: column;
             padding: 2rem;
             justify-content: flex-start;
-            transform: translateY(-100vh);
+            transform: translateY(-110vh);
             transition: transform .4s;
             &.hide-nav {
                 transform: translateY(0);
