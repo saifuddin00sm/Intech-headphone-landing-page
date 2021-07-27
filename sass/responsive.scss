@@ -1,0 +1,99 @@
+@media(max-width:992px) {
+    .main-menu {
+        .download-btn {
+            width: 100%;
+            justify-content: flex-start;
+            margin-left: 2rem;
+        }
+        justify-content: space-between;
+        .close-btn {
+            display: block !important;
+        }
+        .nav-inner {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #1e1f23;
+            flex-direction: column;
+            padding: 2rem;
+            justify-content: flex-start;
+            transform: translateY(-100vh);
+            transition: transform .4s;
+            &.hide-nav {
+                transform: translateY(0);
+            }
+            ul {
+                flex-direction: column;
+                width: 100%;
+                .nav-link {
+                    padding: 1.5rem 2rem;
+                    &:hover {
+                        color: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+    .banner {
+        .banner-main {
+            .headline {
+                font-size: 7rem;
+            }
+        }
+    }
+    .custom-shape-divider-top-1626209072 {
+        display: none;
+    }
+    .features {
+        .feature-inner {
+            .feature-heading {
+                padding: 0rem 0rem;
+            }
+        }
+    }
+    .review {
+        .review-head {
+            padding: 0rem 0rem;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 50.2%;
+        overflow-x: hidden;
+    }
+    .review .review-cards-slider .review-slides .user {
+        height: 250px;
+    }
+    .footer {
+        .footer-content {
+            padding-bottom: 3rem;
+        }
+        .footer-nav {
+            .footer-nav-inner {
+                display: block;
+                .copright-text {
+                    margin-bottom: 2rem;
+                }
+                .footer-navbar {
+                    flex-flow: column;
+                    padding-left: 0;
+                    li {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .available-prod .available-inner .available-prod-text h2,
+    .shop .shop-inner .shop-text h2,
+    .features .feature-inner .feature-heading h2,
+    .discount .discount-inner .disc-text .disc-text-inner h2,
+    .history .history-inner .history-headline h2 {
+        font-size: 4.5rem !important;
+    }
+}

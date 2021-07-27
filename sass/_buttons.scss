@@ -1,0 +1,14 @@
+@import 'config';
+%main-btns {
+    display: inline-block;
+    padding: 2rem 4rem;
+    background-color: $primary-color;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .3s;
+    &:hover {
+        background-color: $buttons-hover-color;
+    }
+}
