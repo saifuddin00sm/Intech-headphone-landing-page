@@ -86,6 +86,17 @@
             }
         }
     }
+    .about .img-container {
+        height: 350px;
+        width: 350px;
+    }
+    .refer .refer-inner .refer-content {
+        padding: 0rem;
+    }
+    .shop .shop-inner .shop-img {
+        height: 350px;
+        width: 350px;
+    }
 }
 
 @media(max-width:500px) {
